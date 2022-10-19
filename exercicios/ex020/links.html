@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links Personalizados</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: rgb(255, 167, 167);
+        }
+        .especial::before{
+            content: '⇒';
+            text-decoration: none;
+            font-weight: normal ;
+            color: lightgrey;
+        }
+        
+        .especial::after{
+            content: "⇐";
+            text-decoration: none;
+            font-weight: normal ;
+            color: lightgrey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizndo links com CSS</h1>
+    <ul>
+        <li><a href="hover.html" class="especial">Aula de Hover</a></li>
+        <li><a href="pseudoclass.html">Aula de Peseudoclasses</a></li>
+    </ul>
+</body>
+</html>

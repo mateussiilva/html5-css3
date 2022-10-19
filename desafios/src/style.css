@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "idroid";
+    src: url("../d010/fontes/idroid.otf") format("opentype");
+}
+
+*{
+    font-family: "idroid";
+}
