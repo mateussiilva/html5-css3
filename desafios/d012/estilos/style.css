@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: darkgray;
+}
+
+/*  CABEÇALHO */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* 
+        -- DUAS FORMAS DE DEIXAR AS LETRAS MAIUSCULAS --
+        text-transform: uppercase;
+        font-variant: small-caps;
+        
+    */
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ header  a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+
+.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 400px;
+    padding: 7px;
+}
+
+
+
+
+
+/*  RODAPÉ */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
