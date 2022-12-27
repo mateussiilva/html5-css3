@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 2</title>
+</head>
+<body>
+    <!-- 
+
+    
+    REQUIRED
+        O atributo "required" do input faz com que ele seja um campo "obrigatorio"
+        ou seja não consigou enviar o formulario sem que ele seja preenchido.
+    
+    MINLENGTH:
+        Esse atributo do input define o tamanho minimo de caractere que o campo precisa
+        receber, é um otimo pré validador proprio do htlml
+
+    MAXLENGTH:
+        Esse atributo do input define o tamanho maximo de caractere que o campo pode 
+        receber, é um otimo pré validador proprio do htlml
+    
+    SIZE:
+        Define o tamaho que o input que vai ter
+
+
+    
+     -->
+    <h1>Teste de Formulario</h1>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="iuser">Usuario:</label>
+            <input type="text" name="usu" id="isuer" required minlength="5" maxlength="15"
+            size=20 placeholder="Nome de usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="12"
+            placeholder="Sua senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
