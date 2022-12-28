@@ -49,3 +49,11 @@ ATRIBUTOS DOS FORMULARIOS
     
     SIZE:
         Define o tamaho que o input que vai ter
+    
+    VALUE:
+        Define o valor padrão do input
+
+    MIN E MAX:
+        Esses dois atributos vamos usar quando estivermos usando o input de numeros,
+        eles definem o valor minimo do campo e o valor maximo
+     
